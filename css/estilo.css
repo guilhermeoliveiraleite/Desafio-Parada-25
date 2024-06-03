@@ -1,0 +1,172 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Cherry+Cream+Soda&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600; 0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200..700&family=Radio+Canada+Big:ital,wght@0,400..700;1,400 ..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif; 
+    
+}
+
+html{
+    height: 150vh;
+}
+
+.container{
+    max-width: 1280px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+
+.container img{
+    width: 10%;
+    
+}
+
+#header{
+    width: 100%;
+    padding: 60px 4%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+    z-index: 1;
+    
+    
+}
+
+#header ul{
+    list-style-type: none;
+    
+    
+}
+
+#header ul li{
+    
+    margin: 0px 60px;
+    display: inline-block;
+    
+}
+
+#header ul li {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#header.scroll{
+    background-color: #000000;
+    padding: 20px 4%;
+}
+
+#header.scroll a{
+    color: #8d8c8c;
+}
+
+nav a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+    
+}
+
+nav a::after{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: " ";
+    width: 0%;
+    height: 1.5px;
+    background-color: #ffffff;
+    transition: 0.5s ease-in-out;
+
+}
+
+nav a:hover::after{
+    width: 100%;
+}
+
+.banner{
+    height: 150vh;
+    background-image: url("https://www.laroc.club/app/uploads/branded/8227/gallery/8236.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+
+.banner h1{
+    
+    font-size: 150px;
+    color: #fdfdfd;
+    text-shadow: 0.1em 0.1em 0.1em  #07070777;
+    background-color: #ffffff5e;
+    border-radius: 40px;
+    
+    
+    
+}
+
+.banner h1 span{
+    color: #000000;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    width: 100%;
+    height: 150%;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+
+ .overlay:hover{
+    opacity: 0.5;} 
+
+#container-music{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    background-color: #000000;
+    width: 100%;
+}
+
+
+
+.box-capa img{
+    width: 200px;
+    margin: 20px;
+}
+.box-audio audio{
+    width: 200px;
+}
+
+
+
+#footer{
+    color: #ffffff;
+    background-color: #000000;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+

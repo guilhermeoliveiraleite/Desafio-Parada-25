@@ -1,0 +1,64 @@
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif; 
+    
+}
+
+html{
+    height: 100vh;
+}
+
+body{
+    background-color: #000000;
+}
+
+#main{
+    width: 100vw;
+    height: 100vh;
+    background: #161616;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+#box-camarote{
+    margin-top: 200px;
+    top: 20px;
+    width: 800px;
+    height: 400px;
+    background-color: #3f3e3f;
+    color: #c874f0;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    list-style-type: none;
+}
+
+
+
+#box-camarote ul{
+
+    list-style-type: none;
+    color: #7162f3;
+}
+
+
+.linha label{
+    display: block;
+    font-weight: bolder;
+    padding-bottom: 5px;
+}
+
+.linha button{
+ margin: 5px;
+}
+
+
+

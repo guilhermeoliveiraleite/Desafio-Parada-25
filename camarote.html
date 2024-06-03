@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Desafio 25</title>
+        <link rel="stylesheet" href="css/estilo.css">
+        <script src="js/menu.js"></script>
+        <link rel="stylesheet" href="css/camarote.css">
+        <script src="js/lista.js" defer></script>
+        <script src="js/lista2.js" defer></script>
+    </head>
+    <body>
+        
+        <header id="header">
+            <div class="container">
+                <div class="menu">
+                    <a href="index.html"><img src="img/logo-br.png" alt=""></a>
+                </div>
+                    <div class="menu">
+                    <nav>
+                        <ul>
+                            <li><a href="">Eventos</a></li>
+                            <li><a href="">Fotos</a></li>
+                            <li><a href="">Camarotes</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            
+            
+        </header>
+
+
+        <div id="main">
+            <div id="box-camarote">
+                <div id="lista-camorete">
+                    <h2>Lista camarote</h2>
+                    <div class="linha">
+                    <span>
+                        <label for="">
+                            Digite o código do camarote
+                        </label>
+                        <input type="text" id="i_camarote">
+                    </span>
+                    
+                    
+                    <span>
+                    <label for="">Nome dos convidados</label>
+                    <input type="text" id="nome">
+                    </span>
+                </div>
+
+
+                <div class="linha">
+                    <span>
+                    <button onclick="cadastra_nome()">Cadastrar convidado</button>
+                    </span>
+                    <span>
+                        <button onclick="cadastrarcamarote()">Cadastrar código camarote</button>
+                    </span>
+                    <span>
+                        <button onclick="remove_camarote()">Remover código camarote</button>
+                    </span>
+                    <span>
+                    <button onclick="remove_cima()">Remover o primeiro convidado</button>
+                    </span>
+                    <span>
+                    <button onclick="remove_baixo()">Remover o último convidado</button>
+                    </span>
+                   
+                </div>
+                <div class="linha">
+                    <span>
+                        
+                        <input type="submit" id="enviar" onclick="enviar()">
+                    </span>
+                </div>
+                
+                    
+               
+                   
+                <ul id="lista"></ul>
+                
+                <li id="cod_camarote"></li>
+                </div>
+                
+                
+            </div>
+        </div>
+        
+        <div id="footer">
+            <p>Desenvolvido por Guilherme O. Leite</p>
+        </div>
+        
+
+    </body>
+</html>
